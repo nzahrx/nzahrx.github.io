@@ -1,0 +1,16 @@
+.botao {
+    cursor: pointer;
+    display: block;
+    width: 140px;
+    height: 140px;
+    background: URL("img/nzahrx.jpg");
+    background-size: 100%;
+    border-radius: 50%;
+    transition: all 1s;
+    margin: 10 auto;
+    box-shadow: 0 0 14px black;
+}
+
+.botao:active {
+    transform: scale(0.8);
+}
